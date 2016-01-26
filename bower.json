@@ -1,0 +1,24 @@
+{
+  "name": "angular-practice",
+  "description": "",
+  "main": "",
+  "authors": [
+    "joy2king <jiuyizhang91@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "underscore": "~1.8.3",
+    "angular-bootstrap": "~1.1.0"
+  }
+}
