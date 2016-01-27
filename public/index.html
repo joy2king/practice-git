@@ -5,6 +5,8 @@
     <link rel="stylesheet" type="text/css" href="libs/angular-bootstrap/ui-bootstrap-csp.css">
     <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.css">
     <script type="text/javascript" src="libs/angular/angular.js"></script>
+    <script type="text/javascript" src="libs/angular-ui-router/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="libs/angular-route/angular-route.js"></script>
     <script type="text/javascript" src="libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <!-- <script type="text/javascript" src="libs/angular-bootstrap/ui-bootstrap.js"></script> -->
 
@@ -15,11 +17,11 @@
 
 </head>
 
-<body ng-app="main" class="container" ng-controller="UserCtrl as user">
-
+<body ng-app="main" >
+    <my-nav></my-nav>
       <div class="container">
-          <div ng-include="'nav.html'"></div> 
-     </div>    
+          <div ui-view></div>
+     </div >    
     <!--<div ng-include="'user.html'"></div>--!>
           
 
@@ -28,6 +30,7 @@
     </div>
     <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="login.js"></script>
+    <script type="text/javascript" src="nav/directive.js"></script>
 
 </body>
 
