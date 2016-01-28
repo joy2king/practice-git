@@ -12,6 +12,7 @@
             <li>
                 <p class="navbar-btn">
                     <button class="btn btn-success" ng-click="user.openLoginForm()" ng-show="!user.username">Login</button>
+                    <button class="btn btn-info" ng-click="user.openSigninForm()" ng-show="!user.username">Sign Up</button>
                     <span ng-show="user.username">
                          Welcome,{{user.username}}
                          <button class="btn btn-warning" ng-click="user.logout()">Logout</button>
